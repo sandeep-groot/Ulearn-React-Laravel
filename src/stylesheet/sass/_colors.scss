@@ -1,0 +1,91 @@
+@import "./variables";
+
+$theme-light: (
+  body: (
+    bg: var(--theme-body-bg),
+  ),
+  content-box: (
+    bg: var(--theme-content-box-bg),
+    headingColor: var(--theme-content-box-headingColor),
+    textColor: var(--theme-content-box-textColor),
+  ),
+  button: (
+    bg: var(--theme-button-bg),
+    color: var(--theme-button-color),
+  ),
+);
+
+$theme-blue: (
+  body: (
+    bg: var(--theme-body-bg),
+  ),
+  content-box: (
+    bg: var(--theme-content-box-bg),
+    headingColor: var(--theme-content-box-headingColor),
+    textColor: var(--theme-content-box-textColor),
+  ),
+  button: (
+    bg: var(--theme-button-bg),
+    color: var(--theme-button-color),
+  ),
+);
+
+$theme-orange: (
+  body: (
+    bg: var(--theme-body-bg),
+  ),
+  content-box: (
+    bg: var(--theme-content-box-bg),
+    headingColor: var(--theme-content-box-headingColor),
+    textColor: var(--theme-content-box-textColor),
+  ),
+  button: (
+    bg: var(--theme-button-bg),
+    color: var(--theme-button-color),
+  ),
+);
+
+$theme-purple: (
+  body: (
+    bg: var(--theme-body-bg),
+  ),
+  content-box: (
+    bg: var(--theme-content-box-bg),
+    headingColor: var(--theme-content-box-headingColor),
+    textColor: var(--theme-content-box-textColor),
+  ),
+  button: (
+    bg: var(--theme-button-bg),
+    color: var(--theme-button-color),
+  ),
+);
+
+$theme-green: (
+  body: (
+    bg: var(--theme-body-bg),
+  ),
+  content-box: (
+    bg: var(--theme-content-box-bg),
+    headingColor: var(--theme-content-box-headingColor),
+    textColor: var(--theme-content-box-textColor),
+  ),
+  button: (
+    bg: var(--theme-button-bg),
+    color: var(--theme-button-color),
+  ),
+);
+
+$theme-dark: (
+  body: (
+    bg: var(--theme-body-bg),
+  ),
+  content-box: (
+    bg: var(--theme-content-box-bg),
+    headingColor: var(--theme-content-box-headingColor),
+    textColor: var(--theme-content-box-textColor),
+  ),
+  button: (
+    bg: var(--theme-button-bg),
+    color: var(--theme-button-color),
+  ),
+);

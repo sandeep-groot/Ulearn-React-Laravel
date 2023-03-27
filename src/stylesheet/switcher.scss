@@ -1,0 +1,27 @@
+@import "./sass/mixins";
+
+#theme-light {
+  background-color: #eee;
+}
+#theme-blue {
+  background-color: #1e41c1;
+}
+#theme-orange {
+  background-color: #b64b1e;
+}
+#theme-purple {
+  background-color: #7852ae;
+}
+#theme-green {
+  background-color: #5faf3b;
+}
+#theme-black {
+  background-color: #000;
+}
+
+@include themable(theme_light, $theme-light);
+@include themable(theme_blue, $theme-blue);
+@include themable(theme_orange, $theme-orange);
+@include themable(theme_purple, $theme-purple);
+@include themable(theme_green, $theme-green);
+@include themable(theme_dark, $theme-dark);
